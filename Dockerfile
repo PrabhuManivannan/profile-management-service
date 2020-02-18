@@ -1,4 +1,4 @@
 FROM java:8
 VOLUME /tmp
-ADD /build/libs/Cognizantops-0.0.1-SNAPSHOT.jar app.jar
+ADD /build/libs/gs-spring-boot-docker-0.1.0.jar app.jar
 cmd java -jar app.jar
